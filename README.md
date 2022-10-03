@@ -1,7 +1,7 @@
 # Credit card validator API
 
 ## Description
-This is a simple api that allows you to check if a credit card number is correct
+This is a simple API that allows you to check if a credit card number is correct
 
 ## Installation and Launch
 
@@ -44,8 +44,7 @@ uvicorn app.main:app --host 127.0.0.1 --port 8000
 
 ## Introduction
 
-You can check Swagger UI after launching app by this address: 
-http://localhost:8000/docs
+You can check Swagger UI after launching the app at this address: http://localhost:8000/docs
 
 ### Responses
 ```json
@@ -56,7 +55,7 @@ http://localhost:8000/docs
 }
 ```
 The `brand` attribute contains an information about card brand "Visa" or "Mastercard".<br>
-The `bank` attribute contains an information about which bank does the card belongs to.<br>
+The `bank` attribute contains an information about which bank the card belongs to.<br>
 The `error_code` attribute describes an error code.<br>
 
 ### Error codes
